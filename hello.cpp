@@ -70,28 +70,28 @@ inline void fastIo() {
 // .......... ABHR ..........
 
 void testcase() {
-    
+    cout<<" hello world" << endl;
 }
 
 int32_t main() {
     fastIo();
 
-#ifndef ONLINE_JUDGE
-    ifstream infile("input.txt");
-    if (!infile.good()) {
-        ofstream create_input("input.txt");
-        create_input.close();
-    }
+// #ifndef ONLINE_JUDGE
+//     ifstream infile("input.txt");
+//     if (!infile.good()) {
+//         ofstream create_input("input.txt");
+//         create_input.close();
+//     }
 
-    ifstream outfile("output.txt");
-    if (!outfile.good()) {
-        ofstream create_output("output.txt");
-        create_output.close();
-    }
+//     ifstream outfile("output.txt");
+//     if (!outfile.good()) {
+//         ofstream create_output("output.txt");
+//         create_output.close();
+//     }
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
+//     freopen("input.txt", "r", stdin);
+//     freopen("output.txt", "w", stdout);
+// #endif
 
     int t = 1;
     // cin >> t;
